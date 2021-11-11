@@ -1,0 +1,74 @@
+
+{
+    "editor.tokenColorCustomizations": {
+        "functions": "#ff8d8d",
+        "comments": "#6a7a6a",
+        "strings": "#e0925de1",
+        "variables": "#e4ec71",
+        "[Kimbie Dark]": {
+            "keywords": "#9de73d"
+        },
+        "textMateRules": [
+            {
+                "scope": [
+                     "meta.function.definition.rust",
+                ],    
+                "settings": {
+                      "foreground": "#d7fdd7",
+             },
+          },
+          {
+            "scope": [
+                "meta.attribute.rust", 
+            ],    
+            "settings": {
+                "foreground": "#3da822d7",
+            },
+          },    
+          {
+            "scope": [
+                "keyword",
+            ],    
+               "settings": {
+                    "foreground": "#d6eed6",
+            },
+          },
+          {
+            "scope": [
+                "support.function",
+            ],    
+               "settings": {
+                    "foreground": "#ffeb37",
+            },
+          },
+          
+
+        ],
+    },
+    "workbench.colorCustomizations": {
+"editor.selectionHighlightBackground": "#727272",
+        "editor.selectionBackground": "#4c7a3660",
+        "editor.background": "#14100ae5",
+      "activityBar.background": "#0b0c0b",
+      "activityBar.foreground": "#ffe5e5",
+      "icon.foreground":"#ffffff",
+      "sideBar.background":"#292929",
+      "sideBar.foreground":"#cad8df",
+      "sideBarTitle.foreground":"#ffdada",
+      "sideBarSectionHeader.foreground":"#ffffff",
+      "list.activeSelectionBackground":"#1e2520",
+      "list.hoverForeground":"#ffffff",
+      "activityBarBadge.foreground": "#ffffff",
+      "activityBarBadge.background": "#07666d",
+      "symbolIcon.functionForeground": "#2c8692",
+      "statusBar.background": "#1c3b15",
+    },
+    
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Kimbie Dark",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.activityBar.visible": false,
+  }
