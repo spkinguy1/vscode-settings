@@ -15,8 +15,25 @@
                 ],    
                 "settings": {
                       "foreground": "#d7fdd7",
-             },
-          },
+                },
+            },
+            {
+                "scope": [
+                     "entity.name.type.struct.rust",
+                ],    
+                "settings": {
+                      "foreground": "#d83939",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.function.preprocessor",
+                ],    
+                "settings": {
+                    "foreground": "#3da822d7",
+                },
+            },
+          
           {
             "scope": [
                 "meta.attribute.rust", 
@@ -45,7 +62,6 @@
 
         ],
     },
-    
     "workbench.colorCustomizations": { 
         "editorIndentGuide.background": "#352f2f",
         "editorIndentGuide.activeBackground": "#e3fbdb",
