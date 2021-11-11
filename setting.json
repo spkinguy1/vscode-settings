@@ -22,7 +22,7 @@
                      "entity.name.type.struct.rust",
                 ],    
                 "settings": {
-                      "foreground": "#d83939",
+                      "foreground": "#ff4d4d",
                 },
             },
             {
@@ -30,16 +30,16 @@
                     "entity.name.function.preprocessor",
                 ],    
                 "settings": {
-                    "foreground": "#3da822d7",
+                    "foreground": "#aaf597d7",
                 },
             },
-          
+
           {
             "scope": [
                 "meta.attribute.rust", 
             ],    
             "settings": {
-                "foreground": "#3da822d7",
+                "foreground": "#ffffffd7",
             },
           },    
           {
@@ -50,6 +50,15 @@
                     "foreground": "#c2f3e7ca",
             },
           },
+          {
+            "scope": [
+                "punctuation.section.embedded.rust",
+            ],    
+               "settings": {
+                    "foreground": "#c57000de",
+            },
+          },
+          
           {
             "scope": [
                 "support.function",
@@ -80,7 +89,7 @@
         "list.hoverForeground":"#ffffff",
         "activityBarBadge.foreground": "#ffffff",
         "activityBarBadge.background": "#07666d",
-        "symbolIcon.functionForeground": "#2c8692",
+        "symbolIcon.functionForeground": "#3cc6d8",
         "statusBar.background": "#1c3b15",
     },
     
