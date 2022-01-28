@@ -1,0 +1,87 @@
+//put this file in this path :
+$HOME/.config/Code/User/keybindgs.json
+
+[
+    {
+        "key": "alt+q",
+        "command": "extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l alt+o",
+        "command": "-extension.liveServer.goOnline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+k ctrl+h",
+        "command": "-workbench.action.output.toggleOutput",
+        "when": "workbench.panel.output.active"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.toggleFullScreen",
+        "when": "!isIOS"
+    },
+    {
+        "key": "f11",
+        "command": "-workbench.action.toggleFullScreen",
+        "when": "!isIOS"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "workbench.action.switchWindow"
+    },
+    {
+        "key": "alt+2",
+        "command": "-workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    }
+]⏎     
