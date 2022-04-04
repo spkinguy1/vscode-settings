@@ -1,102 +1,24 @@
-
 {
-    "editor.tokenColorCustomizations": {
-        "functions": "#ffb2b2d0",
-        "comments": "#6a7a6a",
-        "strings": "#ffbc90e1",
-        "variables": "#e4ec71",
-        "[Kimbie Dark]": {
-            "keywords": "#9de73d"
-        },
-        "textMateRules": [
-            {
-                "scope": [
-                     "meta.function.definition.rust",
-                ],    
-                "settings": {
-                      "foreground": "#d7fdd7",
-                },
-            },
-            {
-                "scope": [
-                     "entity.name.type.struct.rust",
-                ],    
-                "settings": {
-                      "foreground": "#ff4d4d",
-                },
-            },
-            {
-                "scope": [
-                    "entity.name.function.preprocessor",
-                ],    
-                "settings": {
-                    "foreground": "#aaf597d7",
-                },
-            },
-
-          {
-            "scope": [
-                "meta.attribute.rust", 
-            ],    
-            "settings": {
-                "foreground": "#ffffffd7",
-            },
-          },    
-          {
-            "scope": [
-                "keyword",
-            ],    
-               "settings": {
-                    "foreground": "#c2f3e7ca",
-            },
-          },
-          {
-            "scope": [
-                "punctuation.section.embedded.rust",
-            ],    
-               "settings": {
-                    "foreground": "#c57000de",
-            },
-          },
-          
-          {
-            "scope": [
-                "support.function",
-            ],    
-               "settings": {
-                    "foreground": "#ffeb37",
-            },
-          },
-          
-
-        ],
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
     },
-    "workbench.colorCustomizations": { 
-        "editorIndentGuide.background": "#352f2f",
-        "editorIndentGuide.activeBackground": "#e3fbdb",
-        "editor.lineHighlightBackground": "#1c2e1f4f",
-        "editor.selectionHighlightBackground": "#727272",
-        "editor.selectionBackground": "#4c7a3660",
-        "editor.background": "#14100ae5",
-        "activityBar.background": "#0b0c0b",
-        "activityBar.foreground": "#ffe5e5",
-        "icon.foreground":"#ffffff",
-        "sideBar.background":"#292929",
-        "sideBar.foreground":"#cad8df",
-        "sideBarTitle.foreground":"#ffdada",
-        "sideBarSectionHeader.foreground":"#ffffff",
-        "list.activeSelectionBackground":"#1e2520",
-        "list.hoverForeground":"#ffffff",
-        "activityBarBadge.foreground": "#ffffff",
-        "activityBarBadge.background": "#07666d",
-        "symbolIcon.functionForeground": "#3cc6d8",
-        "statusBar.background": "#1c3b15",
-    },
-    
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Kimbie Dark",
-    "editor.minimap.enabled": false,
+
+
     "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "prettier.tabWidth": 4,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "One Monokai",
+    "json.maxItemsComputed": 10000,
+    "workbench.editor.splitInGroupLayout": "vertical",
     "window.zoomLevel": 1,
-    "workbench.preferredLightColorTheme": "Default Dark+",
-  }
+    "json.schemas": [
+    
+    ],
+
+}
