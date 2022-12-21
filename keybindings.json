@@ -3,11 +3,6 @@ $HOME/.config/Code/User/keybindings.json
 
 [
     {
-        "key": "alt+q",
-        "command": "extension.liveServer.goOnline",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "alt+l alt+o",
         "command": "-extension.liveServer.goOnline",
         "when": "editorTextFocus"
@@ -83,5 +78,46 @@ $HOME/.config/Code/User/keybindings.json
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-dart.hotReload",
+        "when": "inDebugMode && debugType == 'dart'"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-workbench.action.debug.run",
+        "when": "debuggersAvailable && debugState != 'initializing'"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "flutter.hotReload"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.debug.run"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "alt+f",
+        "command": "editor.action.formatDocument"
     }
-]⏎     
+]
