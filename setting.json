@@ -1,5 +1,5 @@
 //put this code in this path
-// $HOME/.config/Code/User/setting.json
+// $HOME/.config/Code/User/settings.json
 {
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#9eaaaa70",
